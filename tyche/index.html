@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  
+  <!-- Bootstrap CSS  & FontAwesome  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+  <!-- Estilos -->
+  <link href="./assets/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Sección  del Header -->
+  <header class="inicio-header">
+    <div class="container-fluid opacity-50 shadow-lg">
+      <div class="row ">
+        <div class="col-4 text-center">
+          <img src="./assets/img/escudoESCOM_B.png" class="align-content-center logo">
+        </div>
+        <div class="col-4 text-center">
+          <img src="./assets/img/USAnalytics_3.png" class=" logo">
+        </div>
+        <div class="col-4 text-center">
+          <img src="./assets/img/logoIPN_B_2.png" class=" logo">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sección  de Inicio  -->
+  <div class="inicio container-fluid  align-content-lg-center text-white shadow-lg ">
+    <div class=" row mb-4 align-self-start">
+      <div class="col-6 m-4 ">
+        <h1 class="text-start display-4  border-bottom">
+          URBAN SPORTS ANALYTICS
+        </h1>
+      </div>
+    </div>
+    <div class="row m-3  align-self-start">
+      <div class="col-6 ">
+        <p class="text-start fw-light fs-2">
+          Prototipo de Software para el Monitoreo de Datos de Desempeño Físico en Equipos de Football
+          Americano del IPN
+        </p>
+      </div>
+    </div>
+    <div class="row m-3">
+      <div class=" d-grid col-3">
+        <button type="button" class="btn btn-outline-light" onclick="scrollToSectionLogIn()"> Iniciar </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Sección de Inicio de Sesión -->
+  <div class="container"></div>
+  <div id="div-login" class="container-vh shadow-lg">
+    <div id="sectionLogIn" class="row m-3 container-vh justify-content-center align-items-center">
+      <div class="col-8 rounded-4 text-center bg-body-secondary  ontainer-login-2">
+        <form id="loginForm" class="form-signin">
+          <img class="mt-3 mb-2" src="./assets/img/USAnalytics_2.png" alt="logoLoginIn" width="120" height="120">
+          <h1 class="h3 mb-3 font-weight-normal">Iniciar Sesión</h1>
+          <label for="inputEmail" class="sr-only">Correo electrónico</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Correo electrónico" required=""
+            autofocus="">
+          <label for="inputPassword" class="sr-only">Contraseña</label>
+          <input type="password" id="inputPassword" class="form-control mt-1" placeholder="Contraseña" required="">
+          <div class="checkbox mt-3 mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Recuerdame
+            </label>
+          </div>
+          <button class="btn btn-lg btn-outline-secondary btn-block" type="submit" >Iniciar sesión</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Conbtenedor del Footer  -->
+  <div id="footer-container" class="container-fluid shadow-lg"></div>
+
+  <!-- Script JS -->
+  <script src="./assets/js/script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

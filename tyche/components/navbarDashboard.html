@@ -1,0 +1,117 @@
+<!-- Código de la Navbar/SideBar de la sección de Dashboards  -->
+
+<aside id="sidebar">
+    <div class="h-100">
+        <div class="sidebar-logo row my-0">
+            <div class="col justify-content-center text-center">
+                <a href="#">
+                    <img src="./assets/img/BBLogo.png" alt="LogoBurros" class="sidebar-logoBB img-thumbnail">
+                </a>
+            </div>
+        </div>
+
+        <!-- Nabegación del sidebar -->
+        <ul class="sidebar-nav">
+            <li class="sidebar-header">
+                <a href="#" class="sidebar-link">
+                    <p class="text-white fs-4 pe-2">Menu</p>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="dashboard_inicio.html" class="sidebar-link">
+                    <i class="fa-solid fa-house pe-2"></i>
+                    Inicio
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="dashboardRoster.html" class="sidebar-link">
+                    <i class="fa-solid fa-user pe-2"></i>
+                    Roster
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#tactico"
+                    aria-expanded="false" aria-controls="tactico">
+                    <i class="fa-solid fa-screwdriver-wrench pe-2"></i>
+                    Evaluacion Técnico - Táctica
+                </a>
+                <ul id="tactico" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="dashEntreneVSJuego.html" class="sidebar-link">Entrenamiento vs Juego</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="dashEntreneVSProductividad.html" class="sidebar-link">Entrenamiento vs
+                            Productividad</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#pages"
+                    aria-expanded="false" aria-controls="pages">
+                    <i class="fa-solid fa-heart-pulse pe-2"></i>
+                    Biometría
+                </a>
+                <ul id="pages" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="dashBiometriaVSTecnica.html" class="sidebar-link">Biometría vs Evaluación Técnica</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="dashBiometriaVSProductividad.html" class="sidebar-link">Biometría vs Productividad</a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#jugadas"
+                    aria-expanded="false" aria-controls="jugadas">
+                    <i class="fa-solid fa-football pe-2"></i>
+                    Efectividad Jugadas
+                </a>
+                <ul id="jugadas" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="dashEfectividadJugadas.html" class="sidebar-link">Efectividad general</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="dashEfectividadJugadasRun.html" class="sidebar-link">Conceptos de Carrera</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="dashEfectividadJugadasPass.html" class="sidebar-link">Conceptos de Pase</a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="sidebar-item">
+                <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard"
+                    aria-expanded="false" aria-controls="dashboard">
+                    <i class="fa-solid fa-code-compare pe-2"></i>
+                    Comparación Jugadores
+                </a>
+                <ul id="dashboard" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                    <li class="sidebar-item">
+                        <a href="dashboardlComparacionTecQB.html" class="sidebar-link">Evaluación Técnica</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="dashboardlComparacionProdQB.html" class="sidebar-link">Productividad</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="dashboardlComparacionBioQB.html" class="sidebar-link">Biometría</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-item">
+                <a href="dashboardTecProdBio.html" class="sidebar-link">
+                    <i class="fa-solid fa-chart-bar pe -2"></i>
+                    Técnicos - Productividad - Biometría </a>
+            </li>
+            <li class="sidebar-item ">
+                <a href="index.html" class="sidebar-link border-top">
+                    <i class="fa-solid fa-arrow-right-from-bracket pe-2"></i>
+                    Log out
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</aside>

@@ -1,0 +1,98 @@
+/* Estilos para el header de la página de inicio */
+
+.inicio-header {
+    background-color: #272729;
+    color: white;
+    padding: 5px 0;
+}
+
+.logo {
+    height: 4rem;
+    max-height: 100px;
+}
+
+body {
+    background-color: #333333;
+    scroll-behavior: smooth;
+    scroll-padding-top: 0;
+}
+
+/* Fondo de la pagina de inicio */
+.inicio {
+    background-image: url(../img/BB_1_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/* Estilos para el form inicio de sesion */
+
+form {
+    display: block;
+    margin-top: 0em;
+
+}
+
+.form-signin {
+    height: 95%;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+}
+
+.container-vh {
+    height: 100vh;
+}
+
+/* Estilos para bg del froom de inicio de sesión */
+#div-login {
+    background-image: url(../img/BB_3_2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bg-grey-opaque {
+    background-color: #cccccc;
+}
+
+.container-login-2 {
+    height: fit-content;
+    position: relative;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    background-color: #B6C4B6;
+    height: fit-content;
+    width: 100%;
+}
+
+.text-footer {
+    text-align: center;
+    size: 10rem;
+    color: white;
+}
