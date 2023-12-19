@@ -6,11 +6,11 @@
 
 body {
 
-     /*   background-image: url(../img/body_bg.png);*/
+    /*   background-image: url(../img/body_bg.png);*/
 
     background-color: #333333;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 .sidebar-logoBB {
@@ -36,8 +36,8 @@ li {
 
 #sidebar {
     background-color: #272729;
-    max-width: 264px;
-    min-width: 264px;
+    max-width: 340px;
+    min-width: 340px;
     height: 100%;
     transition: all 0.35s ease-in-out;
     box-shadow: 0 0 35px 0 rgba(49, 57, 66, 0.5);
@@ -47,7 +47,7 @@ li {
 /* Sidebar Collapse */
 
 #sidebar.collapsed {
-    margin-left: -264px;
+    margin-left: -340px;
 }
 
 .main {
@@ -113,7 +113,7 @@ a.sidebar-link {
 }
 
 .dashboard-div {
-    height: 70vh;
+    height: 80vh;
     width: auto;
     overflow-y: hidden;
 
@@ -156,6 +156,7 @@ iframe {
     size: 10rem;
     color: white;
 }
+
 .logo {
     height: 4rem;
     max-height: 100px;

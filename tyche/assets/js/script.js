@@ -53,7 +53,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var password = document.getElementById("inputPassword").value;
   
     // Simulate successful login (you should replace this with your actual validation logic)
-    if (email === "eduardo009cs@gmail.com" && password === "admin1234") {
+    if (email === "correo@email.com" && password === "admin1234") {
         // Redirect to dashboard.html after successful login
         window.location.href = "dashboard_inicio.html";
     } else {
