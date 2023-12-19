@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -18,71 +17,43 @@
 <body>
 
     <div class="wrapper">
-        <!-- Sidebar Container -->
+        <!-- Contenedor de la barra de navegación -->
         <div id="navbar-container" class="flex-nowrap"></div>
-
-        <!-- Main Component -->
         <div class="main">
-
-            <!-- Header Container -->
+            <!--  Contenedor del header -->
             <div id="header-container" class="container-fluid"></div>
-
             <main class="content px-3 py-2">
                 <div class="container-fluid">
                     <div class="mb-2">
+                        <!-- Titulo del dashboard desplegado-->
                         <h3 id="pageTitle" class="display-4 text-white">Contenido</h3>
                     </div>
                 </div>
                 <div class="container-fluid p-5">
                     <div class="row mb-3 dashboard-div">
-                        <iframe id="iframeContent" title="Report Section"
-                            src="https://app.powerbi.com/view?r=eyJrIjoiMDNmNGFlZjktZTM1My00N2Q5LWFhNTktZTE0Njg2NzdhMzM4IiwidCI6ImY5NGJmNGQ5LTgwOTctNDc5NC1hZGY2LWE1NDY2Y2EyODU2MyIsImMiOjR9&pageName=ReportSection2f1f3a2de63f8443f350"
-                            frameborder="0" allowFullScreen="false"></iframe>
+                        <!-- Iframe que contiene el dahsboard importado de Power BI-->
+                        <iframe id="iframeContent" title="Report Section" src=" " frameborder="0"
+                            allowFullScreen="false"></iframe>
                     </div>
-                    <div class="col-12 text-white mt-3 lead ">
-
-                        El dashboard de estadísticas de fútbol americano despliega una amplia gama de métricas y datos
-                        clave que ofrecen una visión holística del rendimiento del equipo. Desde el número de touchdowns
-                        anotados y yardas recorridas por cada jugador hasta el porcentaje de pases completados por el
-                        mariscal de campo, este panel dinámico brinda una panorámica detallada de la ofensiva y
-                        defensiva del equipo. Gráficos interactivos muestran tendencias a lo largo de la temporada,
-                        permitiendo comparaciones entre partidos y análisis de rendimiento por cuartos. Datos como la
-                        eficiencia en terceros down o el promedio de puntos permiten evaluar la consistencia y fortaleza
-                        estratégica del equipo en diferentes situaciones de juego.
-                    </div>
-                </div>
-
-                <div class="container-fluid p-5">
-                    <div class="row mb-3 dashboard-div">
-                        <iframe id="iframeContent2" title="Report Section"
-                            src="https://app.powerbi.com/view?r=eyJrIjoiMDNmNGFlZjktZTM1My00N2Q5LWFhNTktZTE0Njg2NzdhMzM4IiwidCI6ImY5NGJmNGQ5LTgwOTctNDc5NC1hZGY2LWE1NDY2Y2EyODU2MyIsImMiOjR9&pageName=ReportSection2f1f3a2de63f8443f350"
-                            frameborder="0" allowFullScreen="false"></iframe>
-                    </div>
-                    <div class="col-12 text-white mt-3 lead">
-                        El dashboard de estadísticas de fútbol americano despliega una amplia gama de métricas y datos
-                        clave que ofrecen una visión holística del rendimiento del equipo. Desde el número de touchdowns
-                        anotados y yardas recorridas por cada jugador hasta el porcentaje de pases completados por el
-                        mariscal de campo, este panel dinámico brinda una panorámica detallada de la ofensiva y
-                        defensiva del equipo. Gráficos interactivos muestran tendencias a lo largo de la temporada,
-                        permitiendo comparaciones entre partidos y análisis de rendimiento por cuartos. Datos como la
-                        eficiencia en terceros down o el promedio de puntos permiten evaluar la consistencia y fortaleza
-                        estratégica del equipo en diferentes situaciones de juego.
+                    <!-- Descripcion del dashboard y opcines -->
+                    <div id="dashboardContent" class="col-12 text-white mt-3 lead ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet rutrum odio, id pretium
+                        quam. Quisque facilisis ligula et sollicitudin maximus. Vestibulum ante ipsum primis in faucibus
+                        orci luctus et ultrices posuere cubilia curae; Praesent vitae arcu sodales, feugiat ligula a,
+                        scelerisque arcu. Etiam ac turpis vitae arcu facilisis bibendum non at justo. Phasellus in
+                        vehicula enim, ut mattis orci. Aliquam porttitor odio id quam laoreet, vel eleifend diam
+                        egestas. Sed sed volutpat sapien. Nullam metus metus, feugiat in ultrices ac, commodo sed nibh.
+                        In eget massa non arcu cursus eleifend. Morbi at tortor sit amet dui consectetur vulputate sed
+                        in velit.
                     </div>
                 </div>
-            </main>
-        </div>
-    </div>
-
-
-    <!-- Footer Container -->
-    <div id="footer-container" class="container-fluid shadow-lg"></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="./assets/js/scriptDashboard.js" defer></script>
-
-
+                <!-- Contenedor del pie de página-->
+                <div id="footer-container" class="container-fluid shadow-lg"></div>
+                
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                    crossorigin="anonymous"></script>
+                <script src="./assets/js/scriptDashboard.js" defer></script>
 </body>
 
 </html>
