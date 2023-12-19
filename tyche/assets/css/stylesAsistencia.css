@@ -1,0 +1,53 @@
+
+
+#container-2{
+    margin: auto;
+    width: 75%;
+    box-sizing: border-box;
+    text-align: -webkit-center;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-family: system-ui;
+    font-size: small;
+    color: aliceblue;
+}
+
+tr{
+    text-align: center;
+}
+
+#container-main{
+    display: flex;
+    flex-direction: column;
+}
+#tabla-datos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+#txt-content{
+    width: 40%;
+    color: aliceblue;
+    font-family: system-ui;
+    text-align: justify;
+    font-size: medium;
+    align-self: center;
+    padding: 30px;
+}
+
+.excelente{
+    color: rgb(0, 255, 0,0.5);
+    font-weight: bold;
+}
+.Bueno{
+    color: rgb(255, 255, 0,0.5);
+    font-weight: bold;
+}
+.regular{
+    color: rgb(255, 0, 0,0.5);
+    font-weight: bold;
+}
